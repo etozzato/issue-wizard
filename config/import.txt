@@ -1,0 +1,41 @@
+PROJECT{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.email.suffix" : "@",
+  "config.field.mappings" : {
+    "Assignee" : {
+      "jira.field" : "assignee"
+    },
+    "Summary" : {
+      "jira.field" : "summary"
+    },
+    "Issue Type" : {
+      "jira.field" : "issuetype"
+    },
+    "Description" : {
+      "jira.field" : "description"
+    },
+    "Epic Link" : {
+      "existing.custom.field" : "10005"
+    }
+  },
+  "config.value.mappings" : {
+    "Issue Type" : {
+      "@" : "1",
+      "%" : "3",
+      "+" : "2",
+      "^" : "4"
+    }
+  },
+  "config.delimiter" : "|",
+  "config.project" : {
+    "project.type" : null,
+    "project.key" : "PROJECT",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "PROJECT",
+    "project.lead" : "LEAD"
+  },
+  "config.date.format" : "dd/MMM/yy h:mm a"
+}
