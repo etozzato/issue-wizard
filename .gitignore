@@ -2,3 +2,4 @@
 **/**.DS_Store
 input/**
 output/**
+config/import.txt

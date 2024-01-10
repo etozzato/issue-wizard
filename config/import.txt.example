@@ -1,4 +1,4 @@
-PROJECT{
+{
   "config.version" : "2.0",
   "config.project.from.csv" : "false",
   "config.encoding" : "UTF-8",
